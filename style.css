@@ -1,0 +1,180 @@
+html,body
+{
+	height: 100%;
+	padding :0;
+	margin: 0;
+	font-family: Arial;
+}
+
+
+header
+{
+	width: 100% ;
+	height: 10% ;
+	font-size: 13px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-content: flex-start;
+	align-items: center;
+}
+
+
+.headerItem
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	color: rgba(0,0,0,0.87);
+  	text-decoration: none;
+}
+
+#loginButton
+{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width: 67.167px;
+	height: 28px;
+	padding: 0 12px 0 12px;
+	background-color: rgb(66,133,244);
+	color: #FFFFFF;
+	border: 1px ;
+	border-color: rgb(66,133,244);
+	border-radius: 2px;
+}
+
+ mark
+{
+	color:white;
+	font-weight:bold;
+	background-color:rgb(66,133,244);
+}
+ 
+.appGrid
+{
+	width : 10%;
+	height: 10%;
+}
+
+.logoZone
+{
+	display: flex;
+	width: 100%;
+	height: 40%;
+	justify-content: center;
+	align-content: stretch;
+	align-items: flex-end;
+	/*padding-top: 89px;*/
+}
+
+#Logo
+{
+	margin-left: 450px;
+	margin-right:450px;
+	
+}
+
+.searchbarZone
+{
+	width: 100% ;
+	height : 35% ;
+	align-items: center;
+}
+	
+.searchBar
+{
+	margin-left: 350px;
+	margin-right: 350px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid;
+	border-color: #F2F2F2;
+	border-radius: 15px;
+}
+
+.searchText
+{
+	border: 0px;
+	border-color: transparent;
+}
+
+.buttons
+{
+	/*width: 272px;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+	margin-left: 450px;
+	margin-right: 450px;
+	color: rgba(0, 0, 0, 0.54);
+}
+
+.buttonItem
+{
+	padding: 10px 20px 10px 20px;
+	margin: 5px;
+	border-color: transparent;
+	border-radius: 5px;
+	background-color: #F2F2F2;
+}
+
+footer
+{
+	color: rgba(0, 0, 0, 0.54);
+	width: 100% ;
+	height : 15% ;
+	background-color : #F2F2F2;
+	display: flex;
+	flex-direction: column;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+a
+{
+  color: rgba(0,0,0,0.87);
+  text-decoration: none; 
+}
+
+.preFooter
+{
+	padding-left: 10px;
+	font-size:15px;
+	width: 100%;
+	height: 50%;
+	border-bottom: 1px solid;
+	border-bottom-color:rgba(0, 0, 0, 0.54);
+	align-content: center;
+}
+.realFooter
+{
+	font-size:13px;
+	width: 100%;
+	height: 50%;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.subFooter
+{
+	color:rgba(0, 0, 0, 0.54);
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.footerItem
+{
+	margin-right: 10px;
+	margin-left: 10px;	
+	color: rgba(0, 0, 0, 0.54);
+}
